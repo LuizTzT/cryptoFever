@@ -1,0 +1,26 @@
+.search-crypto {
+  display: flex;
+}
+
+.search-crypto .ant-input {
+  margin: 20px auto 30px auto;
+  width: 250px;
+}
+
+.crypto-card-container {
+  min-height: 65vh;
+}
+
+.crypto-card .crypto-image {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+}
+
+.ant-card .ant-card-body p {
+  text-align: left;
+}
+
+.card-cryptocurrencies {
+  border: 1px solid var(--border);
+}

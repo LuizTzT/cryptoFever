@@ -1,0 +1,65 @@
+.navbar {
+  flex: 0.15;
+  min-width: 250px;
+  margin-right: 10px;
+  background-color: var(--bgPrimary);
+}
+
+.nav-container {
+  position: fixed;
+  left: 0;
+  margin: 10px;
+  height: 100vh;
+  margin: 0px;
+  background-color: var(--bgPrimary);
+}
+
+
+.logo-container {
+  background-color: var(--bgPrimary);
+  display: flex;
+  padding: 15px;
+  /* align-items: center; */
+  justify-content: center;
+  width: 100%;
+}
+
+.logo {
+  margin: 0 0 0 15px;
+}
+
+.logo a {
+  color: white;
+}
+
+.logo a:hover {
+  color: var(--logo-hover);
+}
+.logo a:focus {
+  color: var(--logo-active);
+}
+
+.menu-control-container {
+  display: none;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  border: none;
+}
+
+#custom-menu {
+  background-color: var(--bgPrimary);
+  color: var(--text-secondary);
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+#custom-menu .ant-menu-item-active {
+  background-color: var(--bgPrimary);
+  color: var(--text-secondary);
+}
+
+#custom-menu .ant-menu-item-selected {
+  background-color: var(--text-secondary);
+  color: var(--title-color);
+}

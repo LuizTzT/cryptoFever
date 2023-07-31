@@ -1,0 +1,164 @@
+:root {
+  --text-primary: #333;
+  --text-secondary: #fff;
+  --bgPrimary: #3c096c;
+  --bgSecondary: #7b2cbf;
+  --border: #eee8e8;
+  --title-color: #5a189a;
+  --news-provider: #9d4edd;
+  --news-time: #088708;
+  --logo-hover: #e0aaff;
+  --logo-active: #c77dff;
+  --poppins-font: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--poppins-font);
+}
+
+.app {
+  display: flex;
+  overflow: hidden;
+  min-height: 100vh;
+  position: relative;
+}
+
+.routes {
+  padding: 2rem;
+}
+
+.app-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.ant-typography.footer-rights {
+  color: white;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .news-card .news-description {
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .news-image-container img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  .news-card .news-title {
+    overflow: hidden;
+  }
+
+  .news-image-container .news-title {
+    font-size: 15px;
+    height: 75px;
+  }
+
+  .news-card .news-description {
+    height: 100px;
+    overflow: hidden;
+  }
+
+  .hide-menu {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .app {
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .navbar {
+    flex: 1;
+  }
+
+  .main {
+    flex: 1;
+    margin-top: 90px;
+    margin-left: 0px;
+    margin-right: 10px;
+  }
+
+  .nav-container {
+    height: 8vh;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: var(--bgPrimary);
+  }
+
+  .menu-control-container {
+    display: block;
+  }
+
+  .ant-menu {
+    position: absolute;
+    right: 0px;
+    border-radius: 0 0 15px 15px;
+    padding: 5px;
+  }
+
+  .home-heading-container .home-title {
+    font-size: 1.4rem;
+  }
+
+  .show-more {
+    font-size: 1.3rem;
+  }
+
+  .show-menu {
+    display: none;
+  }
+  .app .app-content .footer {
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .news-image-container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+  }
+
+  .news-image-container .news-title {
+    height: 100px;
+  }
+  .news-card .news-description {
+    height: 75px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .price-change {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    width: 35%;
+  }
+  .price-container {
+    width: 100%;
+  }
+  .current-price {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .exchange-name {
+    display: flex;
+    margin-left: 15px;
+  }
+}

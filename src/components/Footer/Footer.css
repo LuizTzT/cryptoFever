@@ -1,0 +1,19 @@
+.app-content .footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  padding-right: 18rem;
+  background-color: var(--bgPrimary);
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-top: 2px solid var(--text-secondary);
+}
+
+.footer-links a {
+  color: var(--logo-hover);
+  font-size: 1.2rem;
+}

@@ -1,0 +1,41 @@
+.exchange-image {
+  margin: 0px 10px;
+}
+
+body .title-exchange-page {
+  text-align: center;
+  color: var(--bgSecondary);
+}
+
+.category-container {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.exchange-category {
+  text-align: center;
+}
+
+.exchange-category:first-child{
+  text-align: left;
+}
+
+.exchange-value{
+  text-align: center;
+}
+
+.exchange-category span {
+  font-weight: 600;
+}
+
+.exchange-site .ant-typography {
+  color: var(--news-provider);
+}
+
+.exchange-site .ant-typography:hover {
+  color: var(--bgSecondary);
+}
+
+.exchange-site .ant-typography:focus {
+  color: var(--title-color);
+}

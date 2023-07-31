@@ -1,0 +1,55 @@
+.ant-col.ant-col-24{
+  display: flex;
+  justify-content: center;
+}
+
+.ant-select.select-news .ant-select-selector {
+  width: 300px;
+}
+
+.news-card {
+  height: 300px;
+  width: 100%;
+}
+
+.news-card p {
+  color: var(--text-primary);
+  margin: 10px 0px;
+}
+.news-image-container img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.news-image-container {
+  display: flex;
+  gap: 20px;
+}
+
+.news-title {
+  height: 100px;
+}
+
+.news-description {
+  height: 75px;
+}
+
+.provider-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.provider-name {
+  margin-left: 10px;
+  font-weight: 500;
+  color: var(--news-provider);
+  text-transform: capitalize;
+}
+
+.provider-container .provider-time {
+  color: var(--news-time);
+  overflow: hidden;
+  width: 100px;
+}

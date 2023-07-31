@@ -1,0 +1,32 @@
+.ant-typography.heading {
+  color: var(--bgSecondary);
+  font-weight: 700;
+}
+
+.ant-typography.home-title {
+  color: var(--news-provider);
+}
+
+.home-heading-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.ant-statistic.statistics-crypto {
+  color: var(--bgSecondary);
+}
+
+.ant-statistic.statistics-crypto .ant-statistic-title {
+  color: var(--bgSecondary);
+}
+
+.ant-typography.show-more a {
+  font-size: 1.2rem;
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: var(--logo-active);
+}

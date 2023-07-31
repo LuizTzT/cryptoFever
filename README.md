@@ -1,4 +1,6 @@
 <h1>CryptoFever</h1>
+<p><a href="https://crypto-fever.vercel.app/" target="_blank">Aplicação em funcionamento</a></p>
+
 <p>Este é um projeto de uma aplicação web para visualização de informações sobre cryptocurrencies, com páginas para exibir dados sobre as principais cryptocurrencies por meio de APIs, exchanges e 
 notícias relacionadas ao mercado de criptomoedas.</p>
 

@@ -28,9 +28,9 @@ notícias relacionadas ao mercado de criptomoedas.</p>
 
 Certifique-se de ter o Node.js instalado em sua máquina.
 
-Clone este repositório em seu ambiente local (caso ainda não tenha feito):
+Clone este repositório em seu ambiente local:
 ```bash
-git clone https://github.com/seu_nome_de_usuário/cryptocurrency-app.git
+git clone git@github.com:seu_nome_de_usuário/cryptoFever.git
 ```
 
 Navegue até o diretório do projeto:

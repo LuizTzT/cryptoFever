@@ -27,9 +27,7 @@ notícias relacionadas ao mercado de criptomoedas.</p>
 <h3>Instalação e Execução</h3>
 
 Certifique-se de ter o Node.js instalado em sua máquina.
-```bash
-npm install node
-```
+
 Clone este repositório em seu ambiente local (caso ainda não tenha feito):
 ```bash
 git clone https://github.com/seu_nome_de_usuário/cryptocurrency-app.git
@@ -38,7 +36,7 @@ git clone https://github.com/seu_nome_de_usuário/cryptocurrency-app.git
 Navegue até o diretório do projeto:
 
 ```bash
-cd cryptocurrency-app
+cd cryptoFever
 ```
 Instale as dependências:
 ```bash

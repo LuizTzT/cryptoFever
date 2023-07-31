@@ -64,10 +64,11 @@ Inicie o servidor de desenvolvimento:
 npm run dev
 ```
 
-Acesse a aplicação em seu navegador:
+Acesse a aplicação em seu navegador(a porta pode variar):
 
 ```bash
 http://localhost:3000
+http://localhost:5173
 ```
 
 <h2>Aplicação em funcionamento</h2>

@@ -42,6 +42,21 @@ Instale as dependências:
 ```bash
 npm install
 ```
+<br>
+Será necessário a criação de uma key para realizar as requisições nas APIs.
+
+Cria sua conta e gere sua key: https://rapidapi.com/
+
+Modifique cada um dos cabeçalhos dos arquivos a seguir substituindo YOUR-KEY pelo código da sua chave:
+```bash
+coinPaprika.js
+cryptoApi.js
+cryptoExchangesApi.js
+cryptoNewsApi.js
+```
+```bash
+"X-RapidAPI-Key": "YOUR-KEY"
+```
 
 Inicie o servidor de desenvolvimento:
 

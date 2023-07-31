@@ -30,7 +30,7 @@ Certifique-se de ter o Node.js instalado em sua máquina.
 
 Clone este repositório em seu ambiente local:
 ```bash
-git clone git@github.com:seu_nome_de_usuário/cryptoFever.git
+git clone git@github.com:LuizTzT/cryptoFever.git
 ```
 
 Navegue até o diretório do projeto:
